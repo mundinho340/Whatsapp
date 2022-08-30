@@ -1,0 +1,147 @@
+/* Global */
+
+.layout{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color:#ffaa0d;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: green;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  border-radius:10px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-tab:hover{
+  background-color:#B0F25E;
+  padding:10px;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  /* background-image: linear-gradient(#1a77c475, #ff060654, #143355, #143355); */
+  background-image: linear-gradient(#c82d8e, #f99d4c);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.Buzi{
+  color:rgb(146, 166, 226);
+}
+#login-card {
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  /* background-color: rgba(47, 91, 172, 0.185); */
+  background-color: rgba(255, 255, 255, 0.329);
+  border-radius: 22px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b589860;
+  text-decoration: none;
+}
+.facebook:hover{
+  background-color: rgb(38, 80, 207);
+  color:rgba(32, 51, 107, 0.438);
+  text-underline-position: none;
+}
+
+.google {
+  background-color: #4286f481;
+  color: white;
+}
+
+.google:hover{
+  background-color: rgb(146, 166, 226);
+  color: #40a9ff;
+}
+
+.github{
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.github:hover{
+  background-color: rgba(0, 0, 0, 0.322);
+  color: #0d2049;
+}
+
+.Youtube{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.Youtube:hover{
+  color: red;
+  background-color: rgba(255, 0, 0, 0.329);
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
